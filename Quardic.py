@@ -1,3 +1,8 @@
+#Author: Shahnawaz Khan
+#Date: 09/04/2021
+#Description: Program to find the roots of the equation a*x*x + b*x + c
+
+
 import cmath
 def Quadratic(a,b,c):
     
@@ -16,4 +21,5 @@ try:
     c=int(input('enter value of c: '))
     Quadratic(a,b,c)
 except Exception as e:
-    print(e)
+    print("invalid input", e)
+    
