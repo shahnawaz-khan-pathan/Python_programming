@@ -1,3 +1,8 @@
+#Author: Shahnawaz Khan
+#Date: 09/04/2021
+#Description: Program that takes two integer command-line arguments x and y and prints
+
+
 import math
 def Distance(a,b):
     
@@ -9,4 +14,4 @@ try:
     b=int(input('enter b value: '))
     Distance(a,b)
 except Exception as e:
-    print(e)
+    print("invalid input",e)
