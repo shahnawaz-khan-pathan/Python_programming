@@ -1,3 +1,10 @@
+#Author: Shahnawaz khan
+#Date: 09/04/2021
+#Description: Program that takes two arguments from user temperature and wind velocity 
+# and prints the wind chill
+
+
+
 def WindCalculation(t,v):
     try:
         # calculation part
@@ -6,7 +13,7 @@ def WindCalculation(t,v):
         print('calculated windchill is: ')
         print(w)
     except Exception as e:
-        print(e)    
+        print("invalid", e)    
 
 def userinput():
          temp= int(input('enter the value of temperature in Fahrenheit less then 50: '))
